@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.4...3.18)
 project(sequence_cpp)
 
-add_subdirectory(third_party/pybind11)
+add_subdirectory(pybind11)
 pybind11_add_module(sequence_cpp sequence/init.cpp)
 
 target_include_directories(sequence_cpp PRIVATE ./sequence)
