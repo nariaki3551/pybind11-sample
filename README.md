@@ -5,7 +5,7 @@ sample project for pybind11
 
 ```
 git clone https://github.com/nariaki3551/pybind11-sample.git
-cd git submodule update --init --recursive
+cd pybind11-sample
 git submodule update --init --recursive
 python -m pip install .
 ```
